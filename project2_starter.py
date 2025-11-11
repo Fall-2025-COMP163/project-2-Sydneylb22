@@ -1,7 +1,7 @@
 """
 COMP 163 - Project 2: Character Abilities Showcase
-Name: [Your Name Here]
-Date: [Date]
+Name: Sydney Brown
+Date: 11/8/2025
 
 AI Usage: [Document any AI assistance used]
 Example: AI helped with inheritance structure and method overriding concepts
@@ -55,10 +55,10 @@ class SimpleBattle:
 
 class Character:
      """
-    Base class for all character types.
-    Stores the core stats (name, health, strength, magic) and
-    provides universal functions that all characters share.
-    """
+     Base class for all character types.
+     Stores the core stats (name, health, strength, magic) and
+     provides universal functions that all characters share.
+     """
     
     def __init__(self, name, health, strength, magic):
         """  Initializes a basic character with the essential stats. Every character in the game has these four values. """
