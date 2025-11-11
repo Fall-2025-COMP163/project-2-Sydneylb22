@@ -10,7 +10,7 @@ Example: AI helped with inheritance structure and method overriding concepts
 # ============================================================================
 # PROVIDED BATTLE SYSTEM (DO NOT MODIFY)
 # ============================================================================
-
+import random
 class SimpleBattle:
     """
     Simple battle system provided for you to test your characters.
@@ -75,7 +75,7 @@ class Character:
         2. Apply damage to the target
         3. Print what happened
         """
-          damage = self.strength
+        damage = self.strength
         print(f"{self.name} attacks {target.name} for {damage} damage!")
         target.take_damage(damage)
         
@@ -136,7 +136,7 @@ class Warrior(Player):
         Create a warrior with appropriate stats.
         Warriors should have: high health, high strength, low magic
         """
-         super().__init__(name, "Warrior", health=120, strength=15, magic=5)
+        super().__init__(name, "Warrior", health=120, strength=15, magic=5)
         
     def attack(self, target):
         """
